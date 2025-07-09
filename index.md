@@ -21,7 +21,7 @@
     return String(num).padStart(size, '0');
   }
 
-  function updateFrameSurrogateReuslts() {
+  function updateFrameSurrogateResults() {
     const padded = pad(frameSurrogate, 4);
     imgSurrogate.src = `img/surrogate_model/animation.${padded}.png`;
     frameSurrogate = (frameSurrogate + 1) % totalFrames;
@@ -70,7 +70,7 @@
     return String(num).padStart(size, '0');
   }
 
-  function updateFrameInverseReuslts() {
+  function updateFrameInverseResults() {
     const padded = pad(frameInverse, 4);
     imgInverse.src = `img/inverse_model/animation.${padded}.png`;
     frameInverse = (frameInverse + 1) % totalFrames;
