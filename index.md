@@ -1,4 +1,8 @@
-# Surrogate Model results
+# Heating Process Optimization in Thermoforming trough Surrogate Modeling and Artificial Neural Network(ANN)
+
+## Surrogate Model results
+
+The first image represents the prediction obtained by the Surrogate Model, the second one the ground-truth and the last one the Absolute Error obtained.
 
 <div style="text-align: center;">
   <img id="slideshow_surrogate_model" src="img/surrogate_model//animation.0000.png" alt="Animation Frame" style="max-width: 90%; border: 2px solid #fff;"/>
@@ -49,7 +53,10 @@
   startSurrogateResults();
 </script>
 
-# Inverse Model results
+## Inverse Model results
+
+The first image represents the prediction obtained by the Surrogate Model, the second one the prediction of the Inverse Model and the last one the Absolute Error obtained.
+
 
 <div style="text-align: center;">
   <img id="slideshow_inverse_model" src="img/inverse_model/animation.0000.png" alt="Animation frameSurrogate" style="max-width: 90%; border: 2px solid #fff;"/>
@@ -98,6 +105,8 @@
   startInverseResults();
 </script>
 
-# Real case optimization results
+## Real case optimization results
+
+This video shows the iteration results performed by the optimizer for a real-use case tested.
 
 ![optimization video](./video/ottimizzatore.mp4)
