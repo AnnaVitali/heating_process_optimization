@@ -49,7 +49,7 @@
   startSurrogateResults();
 </script>
 
-# Iverse Model results
+# Inverse Model results
 
 <div style="text-align: center;">
   <img id="slideshow_inverse_model" src="img/inverse_model/animation.0000.png" alt="Animation frameSurrogate" style="max-width: 90%; border: 2px solid #fff;"/>
