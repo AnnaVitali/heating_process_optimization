@@ -46,13 +46,13 @@
     img.src = `img/surrogate_model/animation.0000.png`;
   }
 
-  startSurrgateResults();
+  startSurrogateResults();
 </script>
 
 # Iverse Model results
 
 <div style="text-align: center;">
-  <img id="slideshow_inverse_model" src="img/inverse_model//animation.0000.png" alt="Animation Frame" style="max-width: 90%; border: 2px solid #fff;"/>
+  <img id="slideshow_inverse_model" src="img/inverse_model/animation.0000.png" alt="Animation Frame" style="max-width: 90%; border: 2px solid #fff;"/>
 
   <div class="controls" style="margin-top: 10px;">
     <button onclick="togglePlayInverseResults()">▶️ Play / ⏸ Pause</button>
