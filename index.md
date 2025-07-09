@@ -28,7 +28,7 @@
   }
 
   function startSurrogateResults() {
-    intervalSurrogate = setInterval(updateFrame, 1000 / fps);
+    intervalSurrogate = setInterval(updateFrameSurrogateResults, 1000 / fps);
   }
 
   function stopSurrogateResults() {
@@ -77,7 +77,7 @@
   }
 
   function startInverseResults() {
-    intervalnverse = setInterval(updateFrame, 1000 / fps);
+    intervalnverse = setInterval(updateFrameInverseResults, 1000 / fps);
   }
 
   function stopInverseResults() {
