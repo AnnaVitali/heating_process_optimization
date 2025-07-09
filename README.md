@@ -3,8 +3,8 @@
 # Surrogate Model results
 
 <div style="text-align: center;">
-  <img id="slideshow" src="img/surrogate_model/animation.0.png" alt="Animation Frame" style="max-width: 90%; border: 2px solid #fff;"/>
-  
+  <img id="slideshow" src="img/surrogate_model//animation.0000.png" alt="Animation Frame" style="max-width: 90%; border: 2px solid #fff;"/>
+
   <div class="controls" style="margin-top: 10px;">
     <button onclick="togglePlay()">▶️ Play / ⏸ Pause</button>
     <button onclick="reset()">🔄 Reset</button>
@@ -16,11 +16,16 @@
   const totalFrames = 2048;
   const img = document.getElementById("slideshow");
   let playing = true;
-  let fps = 30;  // Adjust speed
+  const fps = 2;
   let interval = null;
 
+  function pad(num, size) {
+    return String(num).padStart(size, '0');
+  }
+
   function updateFrame() {
-    img.src = `img/surrogate_model/animation.${frame}.png`;
+    const padded = pad(frame, 4);
+    img.src = `img/surrogate_model/animation.${padded}.png`;
     frame = (frame + 1) % totalFrames;
   }
 
@@ -40,10 +45,9 @@
 
   function reset() {
     frame = 0;
-    img.src = `img/surrogate_model/animation.0.png`;
+    img.src = `img/surrogate_model/animation.0000.png`;
   }
 
-  // Start the animation on page load
   start();
 </script>
 
