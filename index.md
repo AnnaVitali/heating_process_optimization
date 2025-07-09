@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 ## Surrogate Model results
 
 The first image represents the prediction obtained by the Surrogate Model, the second one the ground-truth and the last one the Absolute Error obtained.
