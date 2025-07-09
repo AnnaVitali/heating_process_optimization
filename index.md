@@ -10,40 +10,40 @@
 </div>
 
 <script>
-  let frame = 0;
   const totalFrames = 2048;
-  const img = document.getElementById("slideshow_surrogate_model");
-  let playing = true;
   const fps = 2;
-  let interval = null;
+  const imgSurrogate = document.getElementById("slideshow_surrogate_model");
+  let frameSurrogate = 0;
+  let playingSurrogate = true;
+  let intervalSurrogate = null;
 
   function pad(num, size) {
     return String(num).padStart(size, '0');
   }
 
   function updateFrameSurrogateReuslts() {
-    const padded = pad(frame, 4);
-    img.src = `img/surrogate_model/animation.${padded}.png`;
-    frame = (frame + 1) % totalFrames;
+    const padded = pad(frameSurrogate, 4);
+    imgSurrogate.src = `img/surrogate_model/animation.${padded}.png`;
+    frameSurrogate = (frameSurrogate + 1) % totalFrames;
   }
 
   function startSurrogateResults() {
-    interval = setInterval(updateFrame, 1000 / fps);
+    intervalSurrogate = setInterval(updateFrame, 1000 / fps);
   }
 
   function stopSurrogateResults() {
-    clearInterval(interval);
+    clearInterval(intervalSurrogate);
   }
 
   function togglePlaySurrogateResults() {
-    playing = !playing;
-    if (playing) startSurrogateResults();
+    playingSurrogate = !playingSurrogate;
+    if (playingSurrogate) startSurrogateResults();
     else stopSurrogateResults();
   }
 
   function resetSurrogateResults() {
     frame = 0;
-    img.src = `img/surrogate_model/animation.0000.png`;
+    imgSurrogate.src = `img/surrogate_model/animation.0000.png`;
   }
 
   startSurrogateResults();
@@ -52,7 +52,7 @@
 # Iverse Model results
 
 <div style="text-align: center;">
-  <img id="slideshow_inverse_model" src="img/inverse_model/animation.0000.png" alt="Animation Frame" style="max-width: 90%; border: 2px solid #fff;"/>
+  <img id="slideshow_inverse_model" src="img/inverse_model/animation.0000.png" alt="Animation frameSurrogate" style="max-width: 90%; border: 2px solid #fff;"/>
 
   <div class="controls" style="margin-top: 10px;">
     <button onclick="togglePlayInverseResults()">▶️ Play / ⏸ Pause</button>
@@ -61,40 +61,38 @@
 </div>
 
 <script>
-  let frame = 0;
-  const totalFrames = 2048;
-  const img = document.getElementById("slideshow_inverse_model");
-  let playing = true;
-  const fps = 2;
-  let interval = null;
+  let frameInverse = 0;
+  const imgInverse = document.getElementById("slideshow_inverse_model");
+  let playingInverse = true;
+  let intervalnverse = null;
 
   function pad(num, size) {
     return String(num).padStart(size, '0');
   }
 
   function updateFrameInverseReuslts() {
-    const padded = pad(frame, 4);
-    img.src = `img/inverse_model/animation.${padded}.png`;
-    frame = (frame + 1) % totalFrames;
+    const padded = pad(frameInverse, 4);
+    imgInverse.src = `img/inverse_model/animation.${padded}.png`;
+    frameInverse = (frameInverse + 1) % totalFrames;
   }
 
   function startInverseResults() {
-    interval = setInterval(updateFrame, 1000 / fps);
+    intervalnverse = setInterval(updateFrame, 1000 / fps);
   }
 
   function stopInverseResults() {
-    clearInterval(interval);
+    clearInterval(intervalnverse);
   }
 
   function togglePlayInverseResults() {
-    playing = !playing;
-    if (playing) startInverseResults();
+    playingInverse = !playingInverse;
+    if (playingInverse) startInverseResults();
     else stopInverseResults();
   }
 
   function resetInverseResults() {
-    frame = 0;
-    img.src = `img/inverse_model/animation.0000.png`;
+    frameInverse = 0;
+    imgInverse.src = `img/inverse_model/animation.0000.png`;
   }
 
   startInverseResults();
