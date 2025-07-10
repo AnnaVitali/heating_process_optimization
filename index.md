@@ -2,10 +2,6 @@
 layout: default
 ---
 
-
-The results obtained for temperature on the validation dataset for the surrogate and inverse models are shown below.
-Finally, we present the optimisation process of the real-world use case that has been tested.
-
 ## Surrogate Model results
 
 The initial image corresponds to the prediction derived from the Surrogate Model, the subsequent image represents the ground-truth, and the final image illustrates the absolute error that has been obtained.
