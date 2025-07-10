@@ -2,7 +2,6 @@
 layout: default
 ---
 
-
 The results obtained for temperature on the validation dataset for the surrogate and inverse models are shown below as well as the optimisation process of the real-world use case that has been tested.
 
 ## Surrogate Model results
