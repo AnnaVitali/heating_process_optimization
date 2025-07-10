@@ -2,7 +2,6 @@
 layout: default
 ---
 
-# Heating Process Optimization in Thermoforming trough Surrogate Modeling and Artificial Neural Network(ANN)
 
 The results obtained for temperature on the validation dataset for the surrogate and inverse models are shown below.
 Finally, we present the optimisation process of the real-world use case that has been tested.
