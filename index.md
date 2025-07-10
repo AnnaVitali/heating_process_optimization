@@ -2,6 +2,8 @@
 layout: default
 ---
 
+# Heating Process Optimization in Thermoforming trough Surrogate Modeling and Artificial Neural Network(ANN)
+
 ## Surrogate Model results
 
 The initial image corresponds to the prediction derived from the Surrogate Model, the subsequent image represents the ground-truth, and the final image illustrates the absolute error that has been obtained.
