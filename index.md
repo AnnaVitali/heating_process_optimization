@@ -2,7 +2,7 @@
 layout: default
 ---
 
-The results obtained for temperature on the validation dataset for the surrogate and inverse models are shown below as well as the optimisation process of the real-world use case that has been tested.
+The results obtained for temperature on the validation dataset for the surrogate and inverse models are shown below, along with the optimisation process for the real-world use case that was tested.
 
 ## Surrogate Model results
 
@@ -111,7 +111,7 @@ The initial image illustrates the prediction derived from the Surrogate Model, t
 
 ## Real case optimization results
 
-The video presents the iteration results obtained by the optimiser for the real-use case of the lion that was tested.
+The video presents the iteration results obtained by the optimiser for the real-use case of the lion that was tested. The first image shows the predicted temperature, the second shows the margin of error, and the third shows the expected result.
 
 <div style="text-align: center;">
   <video width="640" height="360" controls>
