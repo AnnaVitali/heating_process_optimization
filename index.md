@@ -4,7 +4,7 @@ layout: default
 
 ## Surrogate Model results
 
-The first image represents the prediction obtained by the Surrogate Model, the second one the ground-truth and the last one the Absolute Error obtained.
+The initial image corresponds to the prediction derived from the Surrogate Model, the subsequent image represents the ground-truth, and the final image illustrates the absolute error that has been obtained.
 
 <div style="text-align: center;">
   <img id="slideshow_surrogate_model" src="img/surrogate_model//animation.0000.png" alt="Animation Frame" style="max-width: 90%; border: 2px solid #fff;"/>
@@ -57,7 +57,7 @@ The first image represents the prediction obtained by the Surrogate Model, the s
 
 ## Inverse Model results
 
-The first image represents the prediction obtained by the Surrogate Model, the second one the prediction of the Inverse Model and the last one the Absolute Error obtained.
+The initial image illustrates the prediction derived from the Surrogate Model, the subsequent image depicts the prediction from the Inverse Model, and the final image shows the absolute error that was obtained.
 
 
 <div style="text-align: center;">
@@ -109,7 +109,7 @@ The first image represents the prediction obtained by the Surrogate Model, the s
 
 ## Real case optimization results
 
-This video shows the iteration results performed by the optimizer for a real-use case tested.
+The video presents the iteration results obtained by the optimiser for the real-use case of the lion that was tested.
 
 <div style="text-align: center;">
   <video width="640" height="360" controls>
