@@ -109,9 +109,9 @@ The initial image illustrates the prediction derived from the Inverse Model, the
   startInverseResults();
 </script>
 
-## Real case optimization results
+## Optimization results
 
-The video presents the iteration results obtained by the optimiser for the real-use case of the lion that was tested. The first image shows the predicted temperature, the second shows the margin of error, and the third shows the expected result.
+The video presents the iteration results obtained by the optimiser for the a real-use case that was tested. The first image shows the predicted temperature, the second shows the margin of error, and the third shows the expected result.
 
 <div style="text-align: center;">
   <video width="640" height="360" controls>
