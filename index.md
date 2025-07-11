@@ -59,7 +59,7 @@ The initial image corresponds to the prediction derived from the Surrogate Model
 
 ## Inverse Model results
 
-The initial image illustrates the prediction derived from the Surrogate Model, the subsequent image depicts the prediction from the Inverse Model, and the final image shows the absolute error that was obtained.
+The initial image illustrates the prediction derived from the Inverse Model, the subsequent image depicts the prediction from the Surrogate Model, and the final image shows the absolute error that was obtained.
 
 
 <div style="text-align: center;">
